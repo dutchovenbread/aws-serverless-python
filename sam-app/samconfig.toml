@@ -1,0 +1,23 @@
+version = 0.1
+[crcdev]
+[crcdev.deploy]
+[crcdev.deploy.parameters]
+stack_name = "sam-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-7fzciwb9np9w"
+s3_prefix = "sam-app"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-depr9gul0v54"
+s3_prefix = "sam-app"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+profile = "crcdev"
